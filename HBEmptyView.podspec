@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "用于为 UITableView & UICollectionView 添加空白占位图"
 
   s.description  = <<-DESC
-    用于为 UITableView & UICollectionView 添加空白占位图
+    用于为 UITableView & UICollectionView 添加空白占位图。
                    DESC
 
   s.homepage     = "https://www.shenhongbang.cc"
@@ -19,7 +19,8 @@ Pod::Spec.new do |s|
 
   s.source_files  = "HBEmptyView.swift"
 
-  s.frameworks = "UIKit", "ObjectiveC"
+  s.frameworks = "UIKit"
   s.requires_arc = true
+  s.swift_version = '5.0'
 
 end
